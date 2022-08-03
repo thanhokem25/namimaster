@@ -1,5 +1,7 @@
-import urllib.request, os, threading, time, random, sys, layer, httpx, socks5
+import urllib.request, os, threading, time, random, sys
 from sys import stdout
+from termcolor import colored
+
 
 ref = [
     'https://duckduckgo.com/',
